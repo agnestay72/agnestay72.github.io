@@ -9,11 +9,19 @@ var valueIndex = 0;
 //Hold out cards
 var deck = [];
 
+
+for (var suiteindex = 0; suitIndex < suits.length; suitIndex +=1) {
+    for (var valueIndex = 0; valueIndex < value.length; valueIndex += 1) {
+
+    }
+}
+
 //Outer look - suits
 while (suitIndex < suits.length) {
-    while (valueIndex < value.length) {
-        valueIndex += 1;   
+    for (var valueIndex = 0; valueIndex < value.length; valueIndex +=1) {
+
     }
+    
   //console.log("suiteIndex = " + suitIndex +", valueIndex = "+ valueIndex ")
   //console.log("suitIndex = %d, valueIndex = %d" , suitIndex, valueIndex);
   deck.push({

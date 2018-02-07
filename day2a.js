@@ -1,7 +1,5 @@
 var car = {
-    name :
-    name :
-    make : 'Honda',
+       make : 'Honda',
     drive : '4W',
     price : 100000,
     validDrivers: ['fred', 'wilma']
