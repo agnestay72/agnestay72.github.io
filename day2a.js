@@ -1,12 +1,14 @@
 var car = {
-       make : 'Honda',
-    drive : '4W',
-    price : 100000,
-    validDrivers: ['fred', 'wilma']
+    make: 'Honda',
+    'first name': "fred",
+    "last-name": 'flintstone',
+    drive: '4W',
+    price: 100000,
+    validDrivers: [ 'fred', 'wilma' ]
 }
 
 console.log("car make = ", car['make']);
-
+console.log("car make = ", car['first name']);
 
 var fred = {
     name: 'fred',
@@ -18,21 +20,14 @@ var wilma = {
     email: 'wilma@gmail.com'
 }
 
-var flintststones = [ fred, wilma ];
+var flintstones = [ fred, wilma ];
 
-console.log(flinststones);
+console.log(flintstones);
 
-//Print out the emails of the flinstones
-
-
-var a = flintstones[0];
-a ['email'];
-console.log(flintstones [0]['email']);
+//Print the email addresses of the flintstones
 
 var i = 0;
 while (i < flintstones.length) {
-    console.log("email: " + flintstones [i]);
+    console.log("email: " + flintstones[i]['email']);
+    i += 1;
 }
-
-i++;
-//i += 1; // i = i + 1;

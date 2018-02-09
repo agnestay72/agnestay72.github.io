@@ -5,25 +5,26 @@ var name;
 var age;
 var hungry;
 
-name = 'fred'; //string,
+name = 'fred'; //string, 
 
-age = 50; //number
+age = 50.5; //number
 
-hungry = false; //boolean -not, and, or
-tired = false; //boolean -not, and, or
+hungry = false; //boolean - not, and, or
+tired = false; //boolean - not, and, or
 
 var timeToLeave = hungry || tired;
 
-if (timeToLeave == true) { 
+if (age > 50) {
     console.log(">>>> yes");
-}  else{
+} else {
     console.log(">>>> no");
 }
 
-console.log('hungry && tired: = ' + (hungry && tired));
-console.log('hungry || tired: = ' + timeToLeave);
-console.log('!hungry && !tired: = ' + (!hungry && !tired));
+console.log('hungry && tired: ' + (hungry && tired));
+console.log('hungry || tired: ' + timeToLeave);
+console.log('!hungry && !tired: ' + (!hungry && !tired));
 
 //alert('hello ' + name);
 
 // str + str -> concatenation
+
